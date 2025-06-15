@@ -99,8 +99,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 
 # MongoDB Configuration
 MONGODB_URI=mongodb://localhost:27017/consultbook
-# or MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/consultbook
-\\\`
+
 
 ### 4. Firebase Setup
 1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
@@ -145,30 +144,6 @@ Visit [http://localhost:3000](http://localhost:3000) to see the application.
 3. *Verify Credentials* - Check uploaded certificates
 4. *Monitor Platform* - Track users and activity
 5. *Generate Test Data* - Use development tools
-
-## Project Structure
-
-\\\`
-consultbook/
-├── app/                          # Next.js App Router
-│   ├── api/                      # API routes
-│   │   ├── files/               # File management
-│   │   └── upload/              # File upload
-│   ├── admin/                   # Admin pages
-│   ├── client/                  # Client pages
-│   ├── consultant/              # Consultant pages
-│   ├── dashboard/               # Role-based dashboards
-│   ├── messages/                # Messaging system
-│   └── book-consultant/         # Booking flow
-├── components/                   # Reusable components
-│   ├── ui/                      # shadcn/ui components
-│   └── file-upload.tsx          # File upload component
-├── lib/                         # Utilities and config
-│   ├── auth-context.tsx         # Authentication context
-│   ├── firebase.ts              # Firebase configuration
-│   └── mongodb.ts               # MongoDB connection
-└── public/                      # Static assets
-\\\`
 
 ## Configuration
 
